@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
@@ -22,12 +21,12 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
-         <h1>Welcome To Paradise Nursery</h1>
+         <h1>Bienvenue chez Paradise Nursery</h1>
           <div className="divider"></div>
-          <p>Where Green Meets Serenity</p>
+          <p>Là où le vert rencontre la sérénité</p>
          
           <button className="get-started-button" onClick={handleGetStartedClick}>
-            Get Started
+            Commencer
           </button>
          </div>
           <div className="aboutus_container">
@@ -44,6 +43,3 @@ function App() {
 }
 
 export default App;
-
-
-
